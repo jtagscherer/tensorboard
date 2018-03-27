@@ -9,6 +9,7 @@ tf_web_library(
     name = "tf_graph_controls",
     srcs = ["tf-graph-controls.html"],
     path = "/tf-graph-controls",
+    visibility = ["//visibility:public"],
     deps = [
         "//tensorboard/components/tf_dashboard_common",
         "//tensorboard/components/tf_imports:polymer",
