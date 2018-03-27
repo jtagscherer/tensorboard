@@ -12,6 +12,7 @@ tf_web_library(
         "tf-graph-app.html",
     ],
     path = "/tf-graph-app",
+    visibility = ["//visibility:public"],
     deps = [
         "//tensorboard/plugins/graph/tf_graph_board",
         "//tensorboard/plugins/graph/tf_graph_controls",
